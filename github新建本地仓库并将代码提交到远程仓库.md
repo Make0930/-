@@ -1,5 +1,5 @@
 # github新建本地仓库并将代码提交到远程仓库
-假设有一个工程需要提交到github相关仓库中，以前自己将工程代码提交到远程仓库都是这么干的，如下：
+## 假设有一个工程需要提交到github相关仓库中，如下：
 
 1、在github上新建好仓库，假设仓库名为：gitRepo。
 
@@ -9,9 +9,9 @@
 
 4、最后使用如下的一系列命令来将其提交到远程仓库中
 
-git add *
+**git add *
 git commit -am "some info"
-git push origin master
+git push origin master  **
 
 
 这种方法不好。原因在于上面的第三步：需要拷贝，如果你提交的工程代码永远不再改变，这样OK，但是，如果你的工程代码还需要修改修改再提交，修改再提交，则你就需要重新将修改后的工程代码拷贝到这个仓库，相当麻烦且容易出错哈。
@@ -66,3 +66,5 @@ git pull --rebase origin master
 1、http://blog.csdn.net/dijason/article/details/9114501
 
 2、http://www.jianshu.com/p/835e0a48c825
+
+3、https://blog.csdn.net/u010412719/article/details/72860193
