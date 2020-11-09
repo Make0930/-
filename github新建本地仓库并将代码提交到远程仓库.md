@@ -9,7 +9,7 @@
 
 4、最后使用如下的一系列命令来将其提交到远程仓库中
 
-**git add * **
+__git add *__
 
 **git commit -am "some info"**
 
